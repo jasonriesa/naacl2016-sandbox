@@ -18,10 +18,30 @@
     <![endif]-->
   </head>
   <body>
-    <h1>NAACL HLT 2016</h1>
-    <p>The NAACL HLT 2016 conference will be held in San Diego, CA.</p>
-    <p>Date: June 12–17, 2016.</p>
+    <div class="content">
 
+      <div role="tabpanel">
+        <ul class="nav nav-pills nav-stacked">
+          <li role="presentation" class="active">
+            <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="#org" aria-controls="org" role="tab" data-toggle="tab">Organization</a>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          <h1>NAACL HLT 2016</h1>
+          <p>The NAACL HLT 2016 conference will be held in San Diego, CA.</p>
+          <p>Date: June 12–17, 2016.</p>
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="org">
+          <p>List of NAACL HLT 2016 Organizing Committee Here</p>
+        </div>
+      </div> <!-- tabpanel -->
+    </div> <!-- content -->
 
 
 
@@ -29,5 +49,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
   </body>
 </html>
