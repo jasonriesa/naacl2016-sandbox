@@ -8,7 +8,10 @@
     <title>NAACL HLT 2016 | San Diego, CA</title>
 
     <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/superhero_bootstrap.min.css">
+    <link rel="stylesheet" href="css/jasny-bootstrap.min.css">
+    <link rel="stylesheet" href="css/navmenu.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,6 +21,26 @@
     <![endif]-->
   </head>
   <body>
+    <!-- Begin Navigation -->
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+      <a class="navmenu-brand" href="#">NAACL HLT 2016</a>
+      <ul class="nav navmenu-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Important Dates</a></li>
+        <li><a href="#">Organization</a></li>
+        <li><a href="index.html">Template Nav</a></li>
+      </ul>
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- End Navigation -->
+
     <div class="jumbotron">
       <div class="container">
         <h1><strong>NAACL HLT 2016</strong></h1>
@@ -240,6 +263,8 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/offcanvas.js"></script>
     <script src="js/analytics.js"></script>
   </body>
 </html>
