@@ -9,10 +9,12 @@ body {
 
 
 @media screen and (max-width: 768px) {
-  .jumbotron p {
-    font-size: 1.2em;
+  .jumbotron {
     margin-right: 0px;
     padding-right: 0px;
+  }
+  .jumbotron p {
+    font-size: 1.2em;
   }
   .mobile-hidden {
     display: none !important;
