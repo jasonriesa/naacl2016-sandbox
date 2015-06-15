@@ -31,9 +31,14 @@ body {
 
 .navmenu {
   background-color: #4e5d6c;
-  font-size: 1em;
+  font-size: 1.2em;
   width: 200px;
 }
+
+.navmenu-inverse {
+  border: #fff;
+}
+
 .navmenu-inverse .navmenu-nav>li>a, .navbar-inverse .navbar-offcanvas .navmenu-nav>li>a {
   color: #fff;
 }
