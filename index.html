@@ -9,8 +9,12 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jasny-bootstrap.min.css">
+
     <!-- Customizations for NAACL HLT 2016 -->
     <link rel="stylesheet" href="css/naacl2016.css">
+    <link rel="stylesheet" href="css/navmenu.css">
+
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
@@ -22,12 +26,31 @@
     <![endif]-->
   </head>
   <body>
+    <!-- Begin Navigation -->
+    <div class="navmenu navmenu-fixed-left offcanvas">
+      <a class="navmenu-brand" href="#">NAACL HLT 2016</a>
+      <ul class="nav navmenu-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#dates">Important Dates</a></li>
+        <li><a href="#organization">Organization</a></li>
+      </ul>
+    </div>
+    <!-- End Navigation -->
+
     <div class="jumbotron">
       <div class="container">
+        <div class="navbar navbar-default navbar-fixed-left"> 
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body"> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+          </button> 
+        </div>
+
         <h1><strong>NAACL HLT 2016</strong></h1>
         <p><span class="glyphicon glyphicon-calendar"></span> June 12–17, 2016</p>
-        <p><span class="glyphicon glyphicon-globe"></span> San Diego, California</p>
-        <p><span class="glyphicon glyphicon-home"></span> Sheraton San Diego Hotel &amp; Marina</p>
+        <p><span class="glyphicon glyphicon-globe"></span> <a href="https://goo.gl/11nO1s">San Diego, California</a></p>
+        <p><span class="glyphicon glyphicon-home"></span> <a href="http://www.sheratonsandiegohotel.com/">Sheraton San Diego Hotel &amp; Marina</a></p>
       </div>
     </div>
 
@@ -302,6 +325,8 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/offcanvas.js"></script>
     <script src="js/analytics.js"></script>
   </body>
 </html>

@@ -8,12 +8,13 @@ body {
 
 .navbar-toggle {
   float: left;
-  margin-left: 15px;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 @media (min-width: 0) {
   .navbar-toggle {
-    display: block; /* force showing the toggle */
+    display: inline; /* force showing the toggle */
   }
 }
 
@@ -23,10 +24,16 @@ body {
   }
   .navbar {
     right: auto;
-    background: none;
+    background: inherit;
     border: none;
   }
 }
+
 .navmenu {
+  background-color: #4e5d6c;
+  font-size: 1em;
   width: 200px;
+}
+.navmenu-inverse .navmenu-nav>li>a, .navbar-inverse .navbar-offcanvas .navmenu-nav>li>a {
+  color: #fff;
 }
