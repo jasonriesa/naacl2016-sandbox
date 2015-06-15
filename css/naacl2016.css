@@ -1,0 +1,19 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+  color: #ebebeb;
+  background-color: #2b3e50;
+}
+
+
+@media screen and (max-width: 768px) {
+  .jumbotron p {
+    font-size: 1.2em;
+  }
+  .mobile-hidden {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
