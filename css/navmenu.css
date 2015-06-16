@@ -2,10 +2,6 @@ html, body {
   height: 100%;
 }
 
-body {
-  padding: 50px 0 0 0;
-}
-
 .navbar-toggle {
   float: left;
   margin-left: 0px;
@@ -19,15 +15,10 @@ body {
   }
 }
 
-@media (min-width: 992px) {
-  body {
-    padding: 0;
-  }
-  .navbar {
+.navbar {
     right: auto;
     background: inherit;
     border: none;
-  }
 }
 
 .navmenu {
