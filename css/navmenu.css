@@ -10,6 +10,7 @@ body {
   float: left;
   margin-left: 0px;
   margin-top: 0px;
+  background-color: #2b3e50;
 }
 
 @media (min-width: 0) {
@@ -40,5 +41,8 @@ body {
 }
 
 .navmenu-inverse .navmenu-nav>li>a, .navbar-inverse .navbar-offcanvas .navmenu-nav>li>a {
+  color: #fff;
+}
+.navmenu-inverse .navmenu-brand, .navbar-inverse .navbar-offcanvas .navmenu-brand {
   color: #fff;
 }
