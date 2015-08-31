@@ -1,1 +1,2 @@
-This is a testing area for content for the NAACL HLT 2016 website.
+# naacl-hlt-2016
+Conference website for NAACL HLT 2016
